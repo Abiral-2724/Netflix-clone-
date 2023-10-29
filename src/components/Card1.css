@@ -1,0 +1,115 @@
+.card1-wrapper {
+  height: 530.3px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card1-content {
+  margin-top: 80px;
+  height: 316.3px;
+  width: 1000px;
+  /* background-color: palevioletred; */
+  display: flex;
+  flex-direction: row;
+}
+.card1-content-div1 {
+  height: 316.3px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* background-color: green; */
+}
+.card1-content-div2 {
+  height: 316.3px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color:yellow; */
+}
+.enjoy-on {
+  margin-top: -10px;
+  font-size: 48px;
+  font-weight: 900;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+  color: #ffffff;
+}
+.watchon {
+  margin-top: -13px;
+  font-size: 1.5rem;
+  margin-left: 4px;
+  font-weight: 400;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+  color: #ffffff;
+}
+.tv-image {
+  position: relative;
+  margin-top: -150px;
+}
+video {
+  margin-top: -170px;
+  position: absolute;
+  width: 355px;
+  height: 210px;
+}
+.video-card3 {
+  margin-top: -280px;
+  width: 310px;
+  height: 200px;
+}
+.downloadoption-card2 {
+  height: 74px;
+  width: 249px;
+  margin-top: 90px;
+  background-color: black;
+  padding: 8px 16px;
+  color: #ffffff;
+  position: absolute;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+  border: 2px solid gray;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.download-img {
+  margin-left: -20px;
+}
+.downloadoption-card2 div p {
+  font-size: 16px;
+  color: white;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+  /* margin-left: -10px; */
+}
+.downloadoption-card2 div p span {
+  color: #0017eb;
+  font-size: 14px;
+}
+.download-logo {
+  /* margin-left: 50px; */
+  width: 3rem;
+  height: 3rem;
+  outline: 2px solid rgb(0, 0, 0);
+  outline-offset: -2px;
+  display: block;
+  background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif)
+    center center no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+  content: "";
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+.card4-content-div1 {
+  margin-left: 20px;
+  margin-top: -30px;
+}

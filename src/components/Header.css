@@ -1,0 +1,22 @@
+.blank-div {
+  height: 8px;
+  width: 100%;
+  background-color: rgba(35, 35, 35);
+}
+.sign-in-button-hindi {
+  width:90px;
+}
+.mylistmaindiv{
+  display: flex;
+  flex-direction: column;
+}
+.youtubevideo{
+  margin-top: 90px;
+  margin-left: 27%;
+}
+.movietrailer{
+  font-size: 50px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;  
+margin-left: 15%;
+margin-bottom: 12px;
+}

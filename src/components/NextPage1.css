@@ -1,0 +1,192 @@
+.nextpage1-wrapper{
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+  overflow-y:hidden;
+   /* display: flex; */
+  /* justify-content: center;
+  align-items: center;
+  flex-direction:column; */ 
+}
+.nextpage1-part1{
+height:91px;
+width:100%;
+display: flex;
+justify-content:space-between;
+border-bottom:2px solid #333333;
+}
+.nextpage1-part2{
+height:600.8px;
+width:100%;
+display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.nextpage1-part3{
+height:192.8px;
+width:100%;
+}
+.nextpage1-part1-logo{
+height:80px;
+width:167px;
+margin-left:20px;
+text-align:center;
+padding-top:18px;
+}
+.nextpage1-part1-signin-button{
+  height:90px;
+  width:120px;
+  paddit-right:20px;
+  display: flex; 
+   justify-content: center;
+  align-items: center;
+}
+.nextpage1-part1-signin-button-tag{
+  color:#333333;
+  font-size:19px;
+  height:30px;
+  font-weight:530;
+  margin-right:26px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+  border:1px solid whitesmoke;
+}
+.nextpage1-part2-content{
+  height:340px;
+  width:394px;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+}
+.Finish-setting-up-your{
+  margin-top:-10px;
+  font-weight:500;
+  font-size:32px;
+  color:#333333;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+}
+.account{
+  margin-top:-53px;
+   font-weight:500;
+  font-size:32px;
+  color:#333333;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+}
+.para1{
+   margin-top:-44px;
+   font-size:21px;
+  color:#333333;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+}
+.para2{
+   margin-top:-10px; 
+   font-size:21px;
+  color:#333333;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+}
+.para3{
+   margin-top:-10px;
+   font-size:21px;
+  color:#333333;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+}
+.nextbutton{
+  height:65px;
+  width:340px;
+  margin-top:5px;
+  text-align:center;
+  color:white;
+   border:2px solid #E50914;
+  background-color:#E50914;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+  font-size:24px;
+  padding:10.5px 48px;
+  border-radius:6px;
+}
+.nextpage1-part2-content p{
+  font-size:13px;
+   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+}
+
+/* footer css code */
+.footer-div-1{
+  margin-top:10px;
+  height:250.09px;
+  width:100%;
+  background-color:#F3F3F3;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-div-content-1{
+  height:245.09px;
+  width:1000px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  justify-content: space-between;
+}
+.footer-div-content-1 p{
+  color:#737373;
+  font-size:16px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+
+}
+.footer-div-part-1-1{
+  height:21px;
+  width:1000px;
+   display: flex;
+  justify-content: flex-start;
+}
+.footer-div-part-2-1{
+  height:66px;
+  width:1000px;
+  display;flex;
+   justify-content: center;
+  align-items: center;
+  margin-top:-10px;
+  /* gap:5px; */
+  /* flex-direction:column; */
+  justify-content: space-evenly;
+  color:#737373;
+  font-size:13px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+}
+.span2-1{
+  margin-left:230px;
+  margin-right:230px;
+}
+.span4-1{
+  margin-left:250px;
+}
+.span6-1{
+  margin-left:130px;
+  margin-right:230px;
+}
+.footer-div-part-3-1{ 
+  width:1000px;
+  display:flex;
+  justify-content: flex-start;
+}
+.footer-select-1{
+  /* margin-top:-20px; */
+  margin-left:10px;
+  margin-bottom:40px;
+  /* padding-left:0px; */
+  font-size:13px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+ height: 40px;
+  width: 126px;
+   padding-left:14px;
+  border-radius: 0.1875rem;
+  /* background-color: inherit; */
+  border: 2px solid black;
+  font: bold;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.footer-select-1 option p{
+  color:black;
+}

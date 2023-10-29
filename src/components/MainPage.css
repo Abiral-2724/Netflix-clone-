@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    transition-timing-function: ease-in;
+    transition: all .5s;
+    width: 100%;
+    z-index: 1;
+}
+.nav_logo{
+  object-fit: contain;
+    position: fixed;
+    left: 20px;
+    width: 80px
+}
+.mainpage-signout{
+  object-fit: contain;
+    position: fixed;
+    border:8px;
+    font-weight:500px;
+    border-radius:8px;
+    height:30px;
+    right: 20px;
+    width: 90px;
+}
+button::hover{
+  background-color:black;
+  color:white;
+}

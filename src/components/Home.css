@@ -1,0 +1,213 @@
+.header-main-div {
+  overflow-y: hidden;
+  width: 100%;
+  overflow-x: hidden;
+  background: rgb(0 0 0 / 40%);
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  /* display: flex; */
+}
+.custom-svg {
+  width: 9.25rem;
+  height: 2.5rem;
+  color: rgb(229, 9, 20);
+  -webkit-text-fill-color: rgb(229, 9, 20);
+  display: block;
+}
+
+.netfix-main-image {
+  /* position: fixed; */
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 700px;
+  width: 100%;
+  z-index: -10;
+  scroll-behavior: none;
+  transform: scale(1.23);
+}
+.header-content-div {
+  position: absolute;
+  z-index: 100;
+  height: 700px;
+  width: 1290px;
+  font-size: 100px;
+  color: white;
+  margin-top: -700px;
+  margin-left: 20px;
+  /* background-color:palegoldenrod; */
+}
+.main-header {
+  height: 92px;
+  width: 100%;
+  margin-top: -10px;
+  /* padding-top: 2px;
+  padding-left: 2px; */
+  /* background-color: hotpink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-header-part1 {
+  height: 45px;
+  width: 167px;
+  /* margin: 8px 0px 0px 16px; */
+  /* background-color: indigo; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-header-part2 {
+  height: 40px;
+  width: 814.33px;
+  /* margin: 0px 0px 0px 2px; */
+  /* background-color: gold; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.main-header-part2-content {
+  height: 40px;
+  width: 300px;
+  /* background-color: violet; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.select-english-hindi {
+  height: 32px;
+  width: 126px;
+  padding-left: 14px;
+  border-radius: 0.1875rem;
+  background-color: inherit;
+  border: 1px solid rgba(231, 231, 231, 0.649);
+  font: bold;
+  font-weight: 600;
+  color: white;
+  font-size: 13px;
+  /* letter-spacing: 1px; */
+}
+.sign-in-button {
+  height: 32px;
+  width: 76.91px;
+  background-color: #e50914;
+  border-radius: 0.1875rem;
+  font: bold;
+  font-weight: 600;
+  color: white;
+  font-size: 13px;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.sign-in-button-hindi{
+  width: 100.91px;
+}
+p {
+  font-size: 20px;
+}
+.sign-in-button p {
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+  color: white;
+  margin-top: 4px;
+  font-size: 15px;
+  text-decoration-color: #e50914;
+}
+.main-header-nextsection {
+  height: 600px;
+  width: 100%;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-header-nextsection-content {
+  height: 296px;
+  width: 1194px;
+  /* background-color: violet; */
+}
+.header-heading {
+  height: 124px;
+  width: 1000px;
+  font-size: 48px;
+  text-align: center;
+  padding-left: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+}
+.Watch-anywhere {
+  height: 30px;
+  width: 1194px;
+  font-size: 24px;
+  /* text-align: center; */
+  margin: 16px 0px 0px;
+  /* padding-left: 100px; */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-weight: 100; */
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+}
+.Ready-to-watch {
+  height: 30px;
+  width: 1194px;
+  font-size: 23px;
+  text-align: center;
+  margin: 16px 0px 0px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+}
+.inputfield-signinbutton {
+  height: 60px;
+  width: 1194px;
+  /* background-color: crimson; */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.email-input {
+  height: 47px;
+  width: 350.75px;
+  margin-right: 20px;
+  border-radius: 3px;
+  border: 2px solid rgba(231, 231, 231, 0.649);
+  background-color: black;
+  border: 0 solid transparent;
+  color: white;
+  padding-left: 7px;
+  /* background-color: rgba(245, 240, 240, 0.807);  */
+  font-size: 13px;
+  /* color: white; */
+  /* padding: 24px 10px 8px; */
+}
+.button-get {
+  height: 53px;
+  width: 190.75px;
+  font-size: 26px;
+  font: bold;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(229, 9, 20);
+  border-radius: 6px;
+  border: 1px solid rgba(231, 231, 231, 0.649);
+}

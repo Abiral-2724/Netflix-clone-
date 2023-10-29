@@ -1,0 +1,53 @@
+.nextpage2-content{
+  height:440px;
+  width:452px;
+  margin-top:-100px;
+}
+.nextpage2-step{
+font-size:13px;
+color:#333333;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+}
+.nextpage2-welcomeback{
+font-size:32px;
+margin-top:-12px;
+color:#333333;
+ font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+}
+.nextpage2-enter{
+font-size:18px;
+margin-top:-12px;
+color:#333333;
+ font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+}
+.nextpage2-email{
+  height:50px;
+  width:440px;
+  border-radius:6px;
+  font-size:13px;
+  padding-left:5px;
+  color:#333333;
+ font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+}
+.nextpage2-email::hover{
+   border:2px solid #E50914;
+}
+.nextpage2-forgot{
+  margin-bottom:50px;
+  font-size:16px;
+  color:#0071EB;
+ font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+}
+.nextpage2-button{
+  height:65px;
+  width:100%;
+  margin-top:54px;
+  text-align:center;
+  color:white;
+  border:2px solid #E50914;
+  background-color:#E50914;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu;
+  font-size:24px;
+  padding:10.5px 48px;
+  border-radius:6px;
+}
