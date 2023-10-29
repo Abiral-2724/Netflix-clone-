@@ -58,7 +58,7 @@ width:314px;
   /* margin-top:-10px */
   height:45px;
 width:314px;
-background-color:#333333
+background-color:#333333;
 color:black;
 border-radius:6px;
 }
@@ -136,7 +136,7 @@ width:314px;
 .footer-div-part-2{
   height:66px;
   width:1000px;
-  display;flex;
+  display:flex;
    justify-content: center;
   align-items: center;
   margin-top:-10px;
